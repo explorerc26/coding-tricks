@@ -1,5 +1,8 @@
 package com.explorer.core;
 
+import java.util.HashMap;
+import java.util.Map;
+
 //The inherited fields can be used directly, just like any other fields.
 //You can declare a field in the subclass with the same name as the one in the superclass, thus hiding it (not recommended).
 //You can declare new fields in the subclass that are not in the superclass.
@@ -10,6 +13,12 @@ package com.explorer.core;
 //You can write a subclass constructor that invokes the constructor of the superclass, either implicitly or by using the keyword super.
 
 public class SimpleAbstractImpl  extends SimpleAbstract{
+	
+	
+	public HashMap methodSignature(){
+		System.out.println("int");
+		return null;
+	}
 	
 	public int trick = 0 ; 
 	
