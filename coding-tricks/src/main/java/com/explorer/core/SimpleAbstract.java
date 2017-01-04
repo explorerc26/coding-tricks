@@ -1,6 +1,9 @@
 package com.explorer.core;
 
 public abstract class SimpleAbstract {
+	
+	public String trick = "tricky" ;
+	
 	public void parent(){
 		System.out.println("********* I am from SimpleAbstract parent method");
 	}
