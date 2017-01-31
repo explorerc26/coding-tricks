@@ -6,10 +6,7 @@ import java.util.Scanner;
 
 public class ScannerExample {
 	public static void main(String[] args) {
-		/*
-		 * Enter your code here. Read input from STDIN. Print output to STDOUT.
-		 * Your class should be named Solution.
-		 */
+
 		Scanner sc = new Scanner(System.in);
 		int no = Integer.parseInt(sc.nextLine());
 		Map<String, Integer> words = new HashMap<String, Integer>();
