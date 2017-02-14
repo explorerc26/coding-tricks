@@ -5,9 +5,9 @@ package com.explorer.core.tricks;
  * http://mindprod.com/jgloss/floatingpoint.html
  *
  */
-public class JavaPuzzle4 {
+public class JavaPuzzler4 {
     public static void main(String[] args) {
-    	JavaPuzzle4 javaPuzzler = new JavaPuzzle4();
+    	JavaPuzzler4 javaPuzzler = new JavaPuzzler4();
         javaPuzzler.doSth();
     }
  
