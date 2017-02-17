@@ -10,7 +10,20 @@ public class Declaration {
 		 //all below are arrays
 		 int[] a, b, c;
 		 // only d is array
-		 int d[], e, f;
+		 int a1[], b1, c1;
+		 
+		 
+	        int ia[][] = { {1,2}, null };
+	        int ja[][] = ia.clone();
+	        System.out.print((ia == ja) + " ");
+	        System.out.println(ia[0] == ja[0] && ia[1] == ja[1]);
+		 
+		 
+	        for (int[] ea : ia) {
+	            for (int e: ea) {
+	                System.out.println(e);
+	            }
+	        }
 	}
 
 }
