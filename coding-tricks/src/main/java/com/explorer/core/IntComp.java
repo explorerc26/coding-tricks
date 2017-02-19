@@ -1,7 +1,5 @@
 package com.explorer.core;
 
-import java.lang.Integer.IntegerCache;
-
 public class IntComp {
 
 	public static void main(String[] args) {
